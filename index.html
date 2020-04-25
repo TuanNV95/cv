@@ -464,7 +464,7 @@
 	}
 		</style>
 	
-		<link rel="icon" href="/favicon.ico">
+		<!-- <link rel="icon" href="/favicon.ico"> -->
 	
 		<title>
 			Tuan Nguyen - Developer profile
@@ -475,15 +475,28 @@
 	
 		<link href="css/chunk-vendors.1c425fdd.css" rel="stylesheet" />
 	
-		<script src="js/app.61ff3179.js">
-		</script>
 	
-		<script src="js/chunk-2d0cbb50.f12df32e.js">
-		</script>
 	
-		<script src="js/chunk-vendors.e4dc88c8.js">
+		<script src="js/app.61ff3179.js"></script>
+		<script src="js/chunk-2d0cbb50.f12df32e.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/chunk-vendors.e4dc88c8.js"></script>
+		<script>
+			var goStories = function () {
+				$('#js-goContact').on('click', function (event) {
+					alert('sdfsdf');
+					event.preventDefault();
+
+					$('html, body').animate({
+						scrollTop: $('#contact-content').offset().top
+					}, 500, 'easeInOutExpo');
+
+					return false;
+				});
+    		}
+    		goStories();
 		</script>
-	
 	</head>
 	
 	<body data-aos-easing="ease" data-aos-duration="600" data-aos-delay="0">
@@ -861,7 +874,7 @@
 										</li>
 	
 									</ul>
-									<a data-v-3ea6f9fd="" href="https://shop.startbootstrap.com/sb-ui-kit-pro-vue" class="btn-teal btn rounded-pill px-4 ml-lg-4">
+									<a data-v-3ea6f9fd="" href="#" id="js-goContact" class="btn-teal btn rounded-pill px-4 ml-lg-4">
 										Contact
 										<svg data-v-3ea6f9fd="" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="ml-1 svg-inline--fa fa-arrow-right fa-w-14">
 											<path data-v-3ea6f9fd="" fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" class="">
@@ -1200,9 +1213,9 @@
 							</span>
 	
 						</section>
-						<section data-v-0e51b078="" data-v-6eead5db="" class="py-10 bg-white" data-v-7930edba="">
+						<section data-v-0e51b078="" data-v-6eead5db="" class="py-10 bg-white"  data-v-7930edba="">
 	
-							<div data-v-6eead5db="" data-v-0e51b078="" class="container">
+							<div id="contact-content" data-v-6eead5db="" data-v-0e51b078="" class="container">
 	
 								<div data-v-6eead5db="" data-v-0e51b078="" class="text-uppercase-expanded small mb-2">
 									Contact
@@ -1333,7 +1346,6 @@
 			</div>
 	
 		</div>
-	
 	</body>
 	
-	</html>
+</html>
