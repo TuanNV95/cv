@@ -15310,6 +15310,44 @@ body {
     font-style: normal
 }
 
+
+@font-face {
+    font-family: Sayuri;
+    src: url(assets/fonts/sayuri/SAYURI-Rochester.ttf);
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Brotherhood;
+    src: url(assets/fonts/brotherhood/SAY-Brotherhood_Script.ttf);
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Metropolis_Utf8;
+    src: url(assets/fonts/metropolis_utf8/Metropolis.ttf);
+    font-weight: 100;
+    font-style: normal
+}
+
+
+@font-face {
+    font-family: Gilroy_Regular_Utf8;
+    src: url(assets/fonts/gilroy_regular/SVN-GilroyMedium.otf);
+    font-weight: 100;
+    font-style: normal
+}
+
+
+@font-face {
+    font-family: Absara_UTF8;
+    src: url(assets/fonts/absara/AdobeMingStd-Light_0.otf);
+    font-weight: 100;
+    font-style: normal
+}
+
 @font-face {
     font-family: Metropolis;
     src: url(assets/fonts/metropolis/Metropolis-ThinItalic.otf);
