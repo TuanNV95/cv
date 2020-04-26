@@ -15348,6 +15348,16 @@ body {
     font-style: normal
 }
 
+
+
+@font-face {
+    font-family: Arista_UTF8;
+    src: url(assets/fonts/arista/SFUStoneSansRegular.TTF);
+    font-weight: 100;
+    font-style: normal
+}
+
+
 @font-face {
     font-family: Metropolis;
     src: url(assets/fonts/metropolis/Metropolis-ThinItalic.otf);
