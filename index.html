@@ -501,42 +501,37 @@
 		<script src="js/app.61ff3179.js"></script>
 		<script src="js/chunk-2d0cbb50.f12df32e.js"></script>
 		<script src="js/jquery.min.js"></script>
-		<script src="js/main.js"></script>
+		<script src="js/main.js"></script>.
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.js"></script>
 		<script src="js/chunk-vendors.e4dc88c8.js"></script>
 		<script>
-			var goStories = function () {
-				$('#js-goContact').on('click', function (event) {
-					alert('sdfsdf');
-					event.preventDefault();
+			$(document).ready(function(){
+				var goStories = function () {
+					$('#js-goContact').on('click', function (event) {
+						event.preventDefault();
+						$('html, body').animate({
+							scrollTop: $('#contact-content').offset().top
+						}, 500);
 
-					$('html, body').animate({
-						scrollTop: $('#contact-content').offset().top
-					}, 500, 'easeInOutExpo');
-
-					return false;
-				});
-    		}
-    		goStories();
+						return false;
+					});
+				}
+				goStories();
+			});
 		</script>
 	</head>
 	
 	<body data-aos-easing="ease" data-aos-duration="600" data-aos-delay="0">
-	
 		<noscript>
 			<strong>
 				We're sorry but website doesn't work properly without JavaScript enabled. Please enable it to continue.
 			</strong>
 		</noscript>
 	
-	
 		<div id="app">
-	
 			<div data-v-7930edba="" data-v-6eead5db="" id="layoutDefault">
-	
 				<div data-v-7930edba="" id="layoutDefault_content">
-	
 					<main data-v-7930edba="">
-	
 						<nav data-v-3ea6f9fd="" data-v-6eead5db="" class="navbar navbar-marketing navbar-expand-lg bg-white navbar-light" data-v-7930edba="">
 	
 							<div data-v-3ea6f9fd="" class="container">
@@ -887,7 +882,7 @@
 										</li>
 	
 									</ul>
-									<a data-v-3ea6f9fd="" href="#" id="js-goContact" class="btn-teal btn rounded-pill px-4 ml-lg-4">
+									<a data-v-3ea6f9fd="" href="#" id="js-goContact" class="btn-teal btn rounded-pill px-4 ml-lg-4 asas">
 										Contact
 										<svg data-v-3ea6f9fd="" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="ml-1 svg-inline--fa fa-arrow-right fa-w-14">
 											<path data-v-3ea6f9fd="" fill="currentColor" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z" class="">
@@ -1228,9 +1223,9 @@
 							</span>
 	
 						</section>
-						<section data-v-0e51b078="" data-v-6eead5db="" class="py-10 bg-white"  data-v-7930edba="">
+						<section id="contact-content"  data-v-0e51b078="" data-v-6eead5db="" class="py-10 bg-white"  data-v-7930edba="">
 	
-							<div id="contact-content" data-v-6eead5db="" data-v-0e51b078="" class="container">
+							<div data-v-6eead5db="" data-v-0e51b078="" class="container">
 	
 								<div data-v-6eead5db="" data-v-0e51b078="" class="text-uppercase-expanded small mb-2">
 									Contact
@@ -1278,11 +1273,8 @@
 							</span>
 	
 						</section>
-	
 					</main>
-	
 				</div>
-	
 				<div data-v-7930edba="" id="layoutDefault_footer">
 	
 					<footer data-v-1a92d671="" data-v-7930edba="" class="footer pt-10 pb-5 mt-auto bg-dark footer-dark">
