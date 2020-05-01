@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js">
-	<head>
+
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Nguyễn Tuấn</title>
@@ -8,16 +9,17 @@
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
-	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet'
+		type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/icomoon.css">
@@ -27,228 +29,231 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	</head>
-	<body>
-		<style>
-			.btn-close-modal {
-				background-color: orangered;
-				color: antiquewhite;
-				font-weight: bold;
-			}
-		
-				.btn-close-modal:hover {
-					background-color: antiquewhite;
-					color: orangered;
-				}
-		
-			.header_modal_handle {
-				text-align: center;
-				color: darkblue;
-			}
-		
-			header_modal_handle :hover {
-				text-align: center;
-				color: orangered;
-			}
-		
-			.modal {
-				position: fixed;
-				top: 0;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				overflow: hidden;
-			}
-		
-			.modal-dialog {
-				position: fixed;
-				margin: 0;
-				width: 100%;
-				height: 100%;
-				padding: 0;
-			}
-		
-			.modal-content {
-				position: absolute;
-				top: 0;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				border: 2px solid #3c7dcf;
-				border-radius: 0;
-				box-shadow: none;
-			}
-		
-			.modal-header {
-				position: absolute;
-				top: 0;
-				right: 0;
-				left: 0;
-				height: 50px;
-				padding: 10px;
-				--background: #6598d9;
-				border: 0;
-			}
-		
-			.modal-title {
-				font-weight: 300;
-				font-size: 2em;
-				color: #fff;
-				line-height: 30px;
-			}
-		
-			.modal-body {
-				position: absolute;
-				top: 50px;
-				bottom: 60px;
-				width: 100%;
-				font-weight: 300;
-				overflow: auto;
-			}
-		
-			.modal-footer {
-				position: absolute;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				height: 60px;
-				padding: 10px;
-				--background: #f1f3f5;
-			}
-		</style>
-		
-		
+</head>
+
+<body>
+	<style>
+		.btn-close-modal {
+			background-color: orangered;
+			color: antiquewhite;
+			font-weight: bold;
+		}
+
+		.btn-close-modal:hover {
+			background-color: antiquewhite;
+			color: orangered;
+		}
+
+		.header_modal_handle {
+			text-align: center;
+			color: darkblue;
+		}
+
+		header_modal_handle :hover {
+			text-align: center;
+			color: orangered;
+		}
+
+		.modal {
+			position: fixed;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			overflow: hidden;
+		}
+
+		.modal-dialog {
+			position: fixed;
+			margin: 0;
+			width: 100%;
+			height: 100%;
+			padding: 0;
+		}
+
+		.modal-content {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			border: 2px solid #3c7dcf;
+			border-radius: 0;
+			box-shadow: none;
+		}
+
+		.modal-header {
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			height: 50px;
+			padding: 10px;
+			--background: #6598d9;
+			border: 0;
+		}
+
+		.modal-title {
+			font-weight: 300;
+			font-size: 2em;
+			color: #fff;
+			line-height: 30px;
+		}
+
+		.modal-body {
+			position: absolute;
+			top: 50px;
+			bottom: 60px;
+			width: 100%;
+			font-weight: 300;
+			overflow: auto;
+		}
+
+		.modal-footer {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			height: 60px;
+			padding: 10px;
+			--background: #f1f3f5;
+		}
+	</style>
+
+
 	<div class="fh5co-loader"></div>
 	<input type="hidden" id="love_date_start" name="love_date_start" value="7/2/2019 12:00:00 AM">
-	
+
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2">
-                    <div id="fh5co-logo"><a href="\">MyLove<strong>.</strong></a></div>
-                </div>
-                <div class="col-xs-10 text-right menu-1">
-                    <ul>
-                        <li class="active">
-                            <a href="\">Trang chủ</a>
-                        </li>
-                        <li>
-                            <a href="#" class="js-gostories">Câu chuyện</a>
-                        </li>
-                        <li>
-                                <a href="#" class="js-gostoservice">Sự kiện</a>
-                            </li>
-                        <li>
-                            <a href="#" class="js-gostogallery">Thư viện</a>
-                        </li>
-                        <li>
-                            <a href="#" class="js-gostobestwish">Lời chúc từ bạn bè</a>
-                        </li>
-                        <li>
-                            <a href="#" class="js-gotoattending">Gửi lời chúc</a>
-                        </li>
-                    </ul>
-                </div>
-			</div>
-			
-		</div>
-	</nav>
+		<nav class="fh5co-nav" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+						<div id="fh5co-logo"><a href="\">MyLove<strong>.</strong></a></div>
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li class="active">
+								<a href="\">Trang chủ</a>
+							</li>
+							<li>
+								<a href="#" class="js-gostories">Câu chuyện</a>
+							</li>
+							<li>
+								<a href="#" class="js-gostoservice">Sự kiện</a>
+							</li>
+							<li>
+								<a href="#" class="js-gostogallery">Thư viện</a>
+							</li>
+							<li>
+								<a href="#" class="js-gostobestwish">Lời chúc từ bạn bè</a>
+							</li>
+							<li>
+								<a href="#" class="js-gotoattending">Gửi lời chúc</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_3.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
+			</div>
+		</nav>
+
+		<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_3.jpg);"
+			data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="display-t">
+							<div class="display-tc animate-box" data-animate-effect="fadeIn">
+								<h1>Name1 &amp; Name2</h1>
+								<h2>Hate has a reason for everything but love is unreasonable</h2>
+								<div class="simply-countdown simply-countdown-one"></div>
+								<p hidden><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div id="fh5co-couple">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<h2>Xin chào!</h2>
+						<h3>From 1 &amp; From 2</h3>
+						<p>"Love means you never have to say you’re sorry"</p>
+					</div>
+				</div>
+				<div class="couple-wrap animate-box">
+					<div class="couple-half">
+						<div class="groom">
+							<img src="images/groom.jpg" alt="groom" class="img-responsive">
+						</div>
+						<div class="desc-groom">
+							<h3>Name1</h3>
+							<p>Một vài lời gì đó :)))</p>
+						</div>
+					</div>
+					<p class="heart text-center"><i class="icon-heart2"></i></p>
+					<div class="couple-half">
+						<div class="bride">
+							<img src="images/bride.jpg" alt="groom" class="img-responsive">
+						</div>
+						<div class="desc-bride">
+							<h3>Name2</h3>
+							<p>Một vào lời gì đó :)))</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<span>Our Special Events</span>
+						<h2>Sự kiện</h2>
+					</div>
+				</div>
+				<div class="row">
 					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Name1 &amp; Name2</h1>
-							<h2>Hate has a reason for everything but love is unreasonable</h2>
-							<div class="simply-countdown simply-countdown-one"></div>
-							<p hidden><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<div id="fh5co-couple">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Xin chào!</h2>
-					<h3>From 1 &amp; From 2</h3>
-					<p>"Love means you never have to say you’re sorry"</p>
-				</div>
-			</div>
-			<div class="couple-wrap animate-box">
-				<div class="couple-half">
-					<div class="groom">
-						<img src="images/groom.jpg" alt="groom" class="img-responsive">
-					</div>
-					<div class="desc-groom">
-						<h3>Name1</h3>
-						<p>Một vài lời gì đó :)))</p>
-					</div>
-				</div>
-				<p class="heart text-center"><i class="icon-heart2"></i></p>
-				<div class="couple-half">
-					<div class="bride">
-						<img src="images/bride.jpg" alt="groom" class="img-responsive">
-					</div>
-					<div class="desc-bride">
-						<h3>Name2</h3>
-						<p>Một vào lời gì đó :)))</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Special Events</span>
-					<h2>Sự kiện</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-10 col-md-offset-1">
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Main Ceremony</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>4:00 PM</span>
-										<span>6:00 PM</span>
+						<div class="display-tc">
+							<div class="col-md-10 col-md-offset-1">
+								<div class="col-md-6 col-sm-6 text-center">
+									<div class="event-wrap animate-box">
+										<h3>Main Ceremony</h3>
+										<div class="event-col">
+											<i class="icon-clock"></i>
+											<span>4:00 PM</span>
+											<span>6:00 PM</span>
+										</div>
+										<div class="event-col">
+											<i class="icon-calendar"></i>
+											<span>Monday 28</span>
+											<span>November, 2016</span>
+										</div>
+										<p>Nội dung</p>
 									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Monday 28</span>
-										<span>November, 2016</span>
-									</div>
-									<p>Nội dung</p>
 								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Wedding Party</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>7:00 PM</span>
-										<span>12:00 AM</span>
+								<div class="col-md-6 col-sm-6 text-center">
+									<div class="event-wrap animate-box">
+										<h3>Wedding Party</h3>
+										<div class="event-col">
+											<i class="icon-clock"></i>
+											<span>7:00 PM</span>
+											<span>12:00 AM</span>
+										</div>
+										<div class="event-col">
+											<i class="icon-calendar"></i>
+											<span>Monday 28</span>
+											<span>November, 2016</span>
+										</div>
+										<p>Nội dung</p>
 									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Monday 28</span>
-										<span>November, 2016</span>
-									</div>
-									<p>Nội dung</p>
 								</div>
 							</div>
 						</div>
@@ -256,122 +261,122 @@
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div id="fh5co-couple-story">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>WE LOVE EACH OTHER</span>
-					<h2>Câu chuyện của chúng mình</h2>
-					<p>Hãy xem hết nhé! Chắc chắn sẽ thú vị lắm đó.</p>
+		<div id="fh5co-couple-story">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<span>WE LOVE EACH OTHER</span>
+						<h2>Câu chuyện của chúng mình</h2>
+						<p>Hãy xem hết nhé! Chắc chắn sẽ thú vị lắm đó.</p>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline animate-box">
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Tiêu đề</h3>
-									<span class="date">December 25, 2015</span>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0">
+						<ul class="timeline animate-box">
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Tiêu đề</h3>
+										<span class="date">December 25, 2015</span>
+									</div>
+									<div class="timeline-body">
+										<p>Nội dung 1</p>
+									</div>
 								</div>
-								<div class="timeline-body">
-									<p>Nội dung 1</p>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Tiêu đề</h3>
+										<span class="date">December 28, 2015</span>
+									</div>
+									<div class="timeline-body">
+										<p>Nội dung 2</p>
+									</div>
 								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Tiêu đề</h3>
-									<span class="date">December 28, 2015</span>
+							</li>
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Tiêu đề</h3>
+										<span class="date">January 1, 2016</span>
+									</div>
+									<div class="timeline-body">
+										<p>Nội dung 3</p>
+									</div>
 								</div>
-								<div class="timeline-body">
-									<p>Nội dung 2</p>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Tiêu đề</h3>
+										<span class="date">December 28, 2015</span>
+									</div>
+									<div class="timeline-body">
+										<p>Nội dung 4</p>
+									</div>
 								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Tiêu đề</h3>
-									<span class="date">January 1, 2016</span>
+							</li>
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Tiêu đề</h3>
+										<span class="date">January 1, 2016</span>
+									</div>
+									<div class="timeline-body">
+										<p>Nội dung 5</p>
+									</div>
 								</div>
-								<div class="timeline-body">
-									<p>Nội dung 3</p>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Tiêu đề</h3>
+										<span class="date">December 28, 2015</span>
+									</div>
+									<div class="timeline-body">
+										<p>Nội dung 6</p>
+									</div>
 								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Tiêu đề</h3>
-									<span class="date">December 28, 2015</span>
+							</li>
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Tiêu đề</h3>
+										<span class="date">January 1, 2016</span>
+									</div>
+									<div class="timeline-body">
+										<p>Nội dung 7</p>
+									</div>
 								</div>
-								<div class="timeline-body">
-									<p>Nội dung 4</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Tiêu đề</h3>
-									<span class="date">January 1, 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>Nội dung 5</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Tiêu đề</h3>
-									<span class="date">December 28, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Nội dung 6</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Tiêu đề</h3>
-									<span class="date">January 1, 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>Nội dung 7</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div id="fh5co-gallery" class="fh5co-section-gray">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Memories</span>
-					<h2>Thư viện ảnh</h2>
-					<p>You know when you love someone when you want them to be happy event if their happiness means that you’re not part of it.</p>
+		<div id="fh5co-gallery" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<span>Our Memories</span>
+						<h2>Thư viện ảnh</h2>
+						<p>You know when you love someone when you want them to be happy event if their happiness means
+							that you’re not part of it.</p>
+					</div>
 				</div>
-			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-12">
-					<!-- <ul id="fh5co-gallery-list">
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-12">
+						<!-- <ul id="fh5co-gallery-list">
 						
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); "> 
 						<a href="images/gallery-1.jpg">
@@ -451,291 +456,304 @@
 							</a>
 						</li>
 					</ul>		 -->
-					<ul id="fh5co-gallery-list">
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-                            <a href="#" data-toggle="modal"
-                               data-target="#fsModal">
-                                <div class="case-studies-summary">
-                                    <span>9 Ảnh</span>
-                                    <h2>Thư viện ảnh 1</h2>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-                            <a href="#" data-toggle="modal"
-                               data-target="#fsModal">
-                                <div class="case-studies-summary">
-                                    <span>9 Ảnh</span>
-                                    <h2>Thư viện ảnh 2</h2>
-                                </div>
-                            </a>
-                        </li>
+						<ul id="fh5co-gallery-list">
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/gallery-9.jpg); ">
+								<a href="#" data-toggle="modal" data-target="#fsModal">
+									<div class="case-studies-summary">
+										<span>9 Ảnh</span>
+										<h2>Thư viện ảnh 1</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/gallery-9.jpg); ">
+								<a href="#" data-toggle="modal" data-target="#fsModal">
+									<div class="case-studies-summary">
+										<span>9 Ảnh</span>
+										<h2>Thư viện ảnh 2</h2>
+									</div>
+								</a>
+							</li>
 
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-                            <a href="#" data-toggle="modal"
-                               data-target="#fsModal">
-                                <div class="case-studies-summary">
-                                    <span>9 Ảnh</span>
-                                    <h2>Thư viện ảnh 3</h2>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-                            <a href="#" data-toggle="modal"
-                               data-target="#fsModal">
-                                <div class="case-studies-summary">
-                                    <span>9 Ảnh</span>
-                                    <h2>Thư viện ảnh 4</h2>
-                                </div>
-                            </a>
-                        </li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/gallery-9.jpg); ">
+								<a href="#" data-toggle="modal" data-target="#fsModal">
+									<div class="case-studies-summary">
+										<span>9 Ảnh</span>
+										<h2>Thư viện ảnh 3</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/gallery-9.jpg); ">
+								<a href="#" data-toggle="modal" data-target="#fsModal">
+									<div class="case-studies-summary">
+										<span>9 Ảnh</span>
+										<h2>Thư viện ảnh 4</h2>
+									</div>
+								</a>
+							</li>
 
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-                            <a href="#" data-toggle="modal"
-                               data-target="#fsModal">
-                                <div class="case-studies-summary">
-                                    <span>9 Ảnh</span>
-                                    <h2>Thư viện ảnh 5</h2>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-                            <a href="#" data-toggle="modal"
-                               data-target="#fsModal">
-                                <div class="case-studies-summary">
-                                    <span>9 Ảnh</span>
-                                    <h2>Thư viện ảnh 6</h2>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/gallery-9.jpg); ">
+								<a href="#" data-toggle="modal" data-target="#fsModal">
+									<div class="case-studies-summary">
+										<span>9 Ảnh</span>
+										<h2>Thư viện ảnh 5</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/gallery-9.jpg); ">
+								<a href="#" data-toggle="modal" data-target="#fsModal">
+									<div class="case-studies-summary">
+										<span>9 Ảnh</span>
+										<h2>Thư viện ảnh 6</h2>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div hidden id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-users"></i>
-								</span>
+		<div hidden id="fh5co-counter" class="fh5co-bg fh5co-counter"
+			style="background-image:url(images/img_bg_5.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="display-t">
+						<div class="display-tc">
+							<div class="col-md-3 col-sm-6 animate-box">
+								<div class="feature-center">
+									<span class="icon">
+										<i class="icon-users"></i>
+									</span>
 
-								<span class="counter js-counter" data-from="0" data-to="500" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Estimated Guest</span>
+									<span class="counter js-counter" data-from="0" data-to="500" data-speed="5000"
+										data-refresh-interval="50">1</span>
+									<span class="counter-label">Estimated Guest</span>
 
+								</div>
 							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-user"></i>
-								</span>
+							<div class="col-md-3 col-sm-6 animate-box">
+								<div class="feature-center">
+									<span class="icon">
+										<i class="icon-user"></i>
+									</span>
 
-								<span class="counter js-counter" data-from="0" data-to="1000" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">We Catter</span>
+									<span class="counter js-counter" data-from="0" data-to="1000" data-speed="5000"
+										data-refresh-interval="50">1</span>
+									<span class="counter-label">We Catter</span>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-calendar"></i>
-								</span>
-								<span class="counter js-counter" data-from="0" data-to="402" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Events Done</span>
+							<div class="col-md-3 col-sm-6 animate-box">
+								<div class="feature-center">
+									<span class="icon">
+										<i class="icon-calendar"></i>
+									</span>
+									<span class="counter js-counter" data-from="0" data-to="402" data-speed="5000"
+										data-refresh-interval="50">1</span>
+									<span class="counter-label">Events Done</span>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-clock"></i>
-								</span>
+							<div class="col-md-3 col-sm-6 animate-box">
+								<div class="feature-center">
+									<span class="icon">
+										<i class="icon-clock"></i>
+									</span>
 
-								<span class="counter js-counter" data-from="0" data-to="2345" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Hours Spent</span>
+									<span class="counter js-counter" data-from="0" data-to="2345" data-speed="5000"
+										data-refresh-interval="50">1</span>
+									<span class="counter-label">Hours Spent</span>
 
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div id="fh5co-testimonial">
-		<div class="container">
-			<div class="row">
+		<div id="fh5co-testimonial">
+			<div class="container">
+				<div class="row">
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<span>Best Wishes</span>
+							<h2>Lời chúc từ bạn bè</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<div class="wrap-testimony">
+								<div class="owl-carousel-fullwidth">
+									<div class="item">
+										<div class="testimony-slide active text-center">
+											<figure>
+												<img src="avt/avt_nt.jpg" alt="user">
+											</figure>
+											<span>Nguyễn Tuấn <a href="#" class="twitter">Facebook</a></span>
+											<blockquote>
+												<p>"Các bạn xuống cuối trang, đăng nhập facebook và viết gì cho chúng
+													mình đi. Miệng xinh nói lời hay ý đẹp nào :))"</p>
+											</blockquote>
+										</div>
+									</div>
+									<div class="item">
+										<div class="testimony-slide active text-center">
+											<figure>
+												<img src="avt/avt_nt.jpg" alt="user">
+											</figure>
+											<span>Nguyễn Tuấn <a href="#" class="twitter">Facebook</a></span>
+											<blockquote>
+												<p>"Các bạn xuống cuối trang, đăng nhập facebook và viết gì cho chúng
+													mình đi. Miệng xinh nói lời hay ý đẹp nào :))"</p>
+											</blockquote>
+										</div>
+									</div>
+									<div class="item">
+										<div class="testimony-slide active text-center">
+											<figure>
+												<img src="images/couple-1.jpg" alt="user">
+											</figure>
+											<span>Nguyễn Tuấn <a href="#" class="twitter">Facebook</a></span>
+											<blockquote>
+												<p>"Các bạn xuống cuối trang, đăng nhập facebook và viết gì cho chúng
+													mình đi. Miệng xinh nói lời hay ý đẹp nào :))"</p>
+											</blockquote>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-services" class="fh5co-section-gray">
+			<div class="container">
+
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Best Wishes</span>
-						<h2>Lời chúc từ bạn bè</h2>
+						<h2>Vides tổng hợp</h2>
+						<p>Cái này chưa có gì để xem đâu :))))</p>
 					</div>
 				</div>
+
 				<div class="row">
-					<div class="col-md-12 animate-box">
-						<div class="wrap-testimony">
-							<div class="owl-carousel-fullwidth">
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="avt/avt_nt.jpg" alt="user">
-										</figure>
-										<span>Nguyễn Tuấn <a href="#" class="twitter">Facebook</a></span>
-										<blockquote>
-											<p>"Các bạn xuống cuối trang, đăng nhập facebook và viết gì cho chúng mình đi. Miệng xinh nói lời hay ý đẹp nào :))"</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="avt/avt_nt.jpg" alt="user">
-										</figure>
-										<span>Nguyễn Tuấn <a href="#" class="twitter">Facebook</a></span>
-										<blockquote>
-											<p>"Các bạn xuống cuối trang, đăng nhập facebook và viết gì cho chúng mình đi. Miệng xinh nói lời hay ý đẹp nào :))"</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-1.jpg" alt="user">
-										</figure>
-										<span>Nguyễn Tuấn <a href="#" class="twitter">Facebook</a></span>
-										<blockquote>
-											<p>"Các bạn xuống cuối trang, đăng nhập facebook và viết gì cho chúng mình đi. Miệng xinh nói lời hay ý đẹp nào :))"</p>
-										</blockquote>
-									</div>
-								</div>
+					<div class="col-md-6">
+						<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+							<span class="icon">
+								<i class="icon-calendar"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Nội dung gì đó</h3>
+								<p>Chi tiết của cái nội dung trên.</p>
 							</div>
 						</div>
+
+						<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+							<span class="icon">
+								<i class="icon-image"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Nội dung gì đó</h3>
+								<p>Chi tiết của cái nội dung trên.</p>
+							</div>
+						</div>
+
+						<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+							<span class="icon">
+								<i class="icon-video"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Nội dung gì đó</h3>
+								<p>Chi tiết của cái nội dung trên.</p>
+							</div>
+						</div>
+
+						<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+							<span class="icon">
+								<i class="icon-video"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Nội dung gì đó</h3>
+								<p>Chi tiết của cái nội dung trên.</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-6 animate-box">
+						<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
+							<a href="https://www.youtube.com/watch?v=BnfaIDwb-y0" class="popup-vimeo"><i
+									class="icon-video2"></i></a>
+							<div class="overlay"></div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+
+		<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Gửi lời chúc cho chúng mình</h2>
+						<p>Bạn sử dụng facebook để gửi bằng nút bên dưới, chỉ một lời chúc được lưu tương ứng mỗi tài
+							khoản fb, nếu gửi 2 lần thì lời chúc trước sẽ bị ghi đè. Cảm ơn bạn nhiều!</p>
+					</div>
+				</div>
+				<div class="row animate-box">
+					<div class="col-md-10 col-md-offset-1">
+						<form class="form-inline">
+							<div class="col-md-8 col-sm-8">
+								<div class="form-group">
+									<label @*for="name" *@ class="sr-only">Nội dung</label>
+									<input class="form-control" id="nd_loichuc" placeholder="Nội dung lời chúc">
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="fb-login-button" style="padding-top: 7px" data-width="" data-size="large"
+									data-button-type="continue_with" data-auto-logout-link="false"
+									data-use-continue-as="false" onlogin="checkLoginState()"></div>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div id="fh5co-services" class="fh5co-section-gray">
-		<div class="container">
-			
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Vides tổng hợp</h2>
-					<p>Cái này chưa có gì để xem đâu :))))</p>
+		<footer id="fh5co-footer" role="contentinfo">
+			<div class="container">
+
+				<div class="row copyright">
+					<div class="col-md-12 text-center">
+						<p>
+							<small class="block">Được thực hiện bởi Tuấn cùng rất nhiểu love cho bạn ấy.</small>
+						</p>
+						<p>
+							<ul class="fh5co-social-icons">
+								<li><a href="https://twitter.com/tuan_2425"><i class="icon-twitter"></i></a></li>
+								<li><a href="https://www.facebook.com/tuan.naem"><i class="icon-facebook"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/tuan2425/"><i class="icon-linkedin"></i></a>
+								</li>
+								<!-- <li><a href="#"><i class="icon-dribbble"></i></a></li> -->
+							</ul>
+						</p>
+					</div>
 				</div>
+
 			</div>
-
-			<div class="row">
-				<div class="col-md-6">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-calendar"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Nội dung gì đó</h3>
-							<p>Chi tiết của cái nội dung trên.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-image"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Nội dung gì đó</h3>
-							<p>Chi tiết của cái nội dung trên.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-video"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Nội dung gì đó</h3>
-							<p>Chi tiết của cái nội dung trên.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-video"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Nội dung gì đó</h3>
-							<p>Chi tiết của cái nội dung trên.</p>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-md-6 animate-box">
-					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
-						<a href="https://www.youtube.com/watch?v=BnfaIDwb-y0" class="popup-vimeo"><i class="icon-video2"></i></a>
-						<div class="overlay"></div>
-					</div>
-				</div>
-			</div>
-
-			
-		</div>
-	</div>
-
-
-	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Gửi lời chúc cho chúng mình</h2>
-					<p>Bạn sử dụng facebook để gửi bằng nút bên dưới, chỉ một lời chúc được lưu tương ứng mỗi tài khoản fb, nếu gửi 2 lần thì lời chúc trước sẽ bị ghi đè. Cảm ơn bạn nhiều!</p>
-				</div>
-			</div>
-			<div class="row animate-box">
-                <div class="col-md-10 col-md-offset-1">
-                    <form class="form-inline">
-                        <div class="col-md-8 col-sm-8">
-                            <div class="form-group">
-                                <label @*for="name"*@ class="sr-only">Nội dung</label>
-                                <input class="form-control" id="nd_loichuc" placeholder="Nội dung lời chúc">
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="fb-login-button" style="padding-top: 7px" data-width="" data-size="large" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="false" onlogin="checkLoginState()"></div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-		</div>
-	</div>
-
-	<footer id="fh5co-footer" role="contentinfo">
-		<div class="container">
-
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">Được thực hiện bởi Tuấn cùng rất nhiểu love cho bạn ấy.</small>
-					</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="https://twitter.com/tuan_2425"><i class="icon-twitter"></i></a></li>
-							<li><a href="https://www.facebook.com/tuan.naem"><i class="icon-facebook"></i></a></li>
-							<li><a href="https://www.linkedin.com/in/tuan2425/"><i class="icon-linkedin"></i></a></li>
-							<!-- <li><a href="#"><i class="icon-dribbble"></i></a></li> -->
-						</ul>
-					</p>
-				</div>
-			</div>
-
-		</div>
-	</footer>
+		</footer>
 	</div>
 
 	<div class="gototop js-top">
@@ -749,64 +767,69 @@
 
 
 
-	<div id="fsModal"
-	class="modal animated bounceIn"
-	tabindex="-1"
-	role="dialog"
-	aria-labelledby="myModalLabel"
-	aria-hidden="true">
+	<div id="fsModal" class="modal animated bounceIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+		aria-hidden="true">
 
-   <div class="modal-dialog">
-	   <div class="modal-content">
-		   <div class="modal-header">
-			   <h3 class="header_modal_handle">
-				   Thư viện ảnh
-			   </h3>
-		   </div>
-		   <div class="modal-body">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="header_modal_handle">
+						Thư viện ảnh
+					</h3>
+				</div>
+				<div class="modal-body">
 
-			   <div class="row row-bottom-padded-md">
-				   <div class="col-md-12">
-					   <ul id="fh5co-gallery-list">
-						   <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-						   </li>
-						   <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							</li>
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-12">
+							<ul id="fh5co-gallery-list">
+								<li class="one-third animate-box" data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-9.jpg); ">
+								</li>
+								<li class="one-third animate-box" data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-9.jpg); ">
+								</li>
 
-						   <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							</li>
-						   <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							</li>
+								<li class="one-third animate-box" data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-9.jpg); ">
+								</li>
+								<li class="one-third animate-box" data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-9.jpg); ">
+								</li>
 
-						   <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							</li>
-						   <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							</li>
+								<li class="one-third animate-box" data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-9.jpg); ">
+								</li>
+								<li class="one-third animate-box" data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-9.jpg); ">
+								</li>
 
-						   <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							</li>
+								<li class="one-third animate-box" data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-9.jpg); ">
+								</li>
 
-						   <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							</li>
+								<li class="one-third animate-box" data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-9.jpg); ">
+								</li>
 
-						   <li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							</li>
-					   </ul>
-				   </div>
-			   </div>
-		   </div>
-		   <div class="modal-footer">
-			   <div class="row">
-				   <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					   <button class="btn btn-close-modal" data-dismiss="modal">
-						   Close
-					   </button>
-				   </div>
-			   </div>
-		   </div>
-	   </div>
-   </div>
-</div>
+								<li class="one-third animate-box" data-animate-effect="fadeIn"
+									style="background-image: url(images/gallery-9.jpg); ">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+							<button class="btn btn-close-modal" data-dismiss="modal">
+								Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 
@@ -844,176 +867,176 @@
 	<script src="js/main.js"></script>
 
 	<script>
-	$(function () {
-        $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-	});
-	
-    var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
-    simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
-    });
-    $('#simply-countdown-losange').simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
-        enableUtc: false
-    });
-</script>
-<script>
-    window.fbAsyncInit = function () {
-        FB.init({
-            appId: '630967230684708',
-            cookie: true,
-            xfbml: true,
-            version: 'v6.0'
-        });
+		$(function () {
+			$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+		});
 
-        FB.AppEvents.logPageView();
+		var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
+		simplyCountdown('.simply-countdown-one', {
+			year: d.getFullYear(),
+			month: d.getMonth() + 1,
+			day: d.getDate()
+		});
+		$('#simply-countdown-losange').simplyCountdown({
+			year: d.getFullYear(),
+			month: d.getMonth() + 1,
+			day: d.getDate(),
+			enableUtc: false
+		});
+	</script>
+	<script>
+		window.fbAsyncInit = function () {
+			FB.init({
+				appId: '630967230684708',
+				cookie: true,
+				xfbml: true,
+				version: 'v6.0'
+			});
 
-    };
+			FB.AppEvents.logPageView();
 
-    (function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) { return; }
-        js = d.createElement(s); js.id = id;
-        js.src = "https://connect.facebook.net/vi_VN/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
+		};
 
-    function GetNameFB(id) {
-        FB.api(
-            '/' + id,
-            'GET',
-            { "fields": "id,name" },
-            function (response) {
-                var loichuc = $("#nd_loichuc").val();
-                var data = {
-                    loichuc: loichuc,
-                    id_facebook: id,
-                    name_facebook: response.name
-                };
-                if (loichuc.length > 0) {
-                    $.ajax({
-                        type: "GET",
-                        url: "/Home/NhanLoiChuc",
-                        data: data,
-                        contentType: "application/json; charset=utf-8",
-                        dataType: "json",
-                        error: function (jqXHR, textStatus, errorThrown) {
-                            console.log("NOK! " + errorThrown);
-                            toastr.error('Gửi lời chúc không thành công!');
-                            toastr.options = {
-                                "closeButton": true,
-                                "debug": true,
-                                "newestOnTop": true,
-                                "progressBar": true,
-                                "positionClass": "toast-bottom-right",
-                                "preventDuplicates": true,
-                                "showDuration": "300",
-                                "hideDuration": "1000",
-                                "timeOut": "5000",
-                                "extendedTimeOut": "1000",
-                                "showEasing": "swing",
-                                "hideEasing": "linear",
-                                "showMethod": "fadeIn",
-                                "hideMethod": "fadeOut"
-                            }
-                        },
-                        success: function (_data) {
-                            if (_data.success) {
-                                console.log(_data);
-                                toastr.success('Gửi lời chúc thành công!');
-                                toastr.options = {
-                                    "closeButton": true,
-                                    "debug": true,
-                                    "newestOnTop": true,
-                                    "progressBar": true,
-                                    "positionClass": "toast-bottom-right",
-                                    "preventDuplicates": true,
-                                    "showDuration": "300",
-                                    "hideDuration": "1000",
-                                    "timeOut": "5000",
-                                    "extendedTimeOut": "1000",
-                                    "showEasing": "swing",
-                                    "hideEasing": "linear",
-                                    "showMethod": "fadeIn",
-                                    "hideMethod": "fadeOut"
-                                }
-                                toastr.success('Lời chúc của bạn sẽ được duyệt trước khi hiển thị!');
-                                toastr.options = {
-                                    "closeButton": true,
-                                    "debug": true,
-                                    "newestOnTop": true,
-                                    "progressBar": true,
-                                    "positionClass": "toast-bottom-right",
-                                    "preventDuplicates": true,
-                                    "showDuration": "300",
-                                    "hideDuration": "1000",
-                                    "timeOut": "5000",
-                                    "extendedTimeOut": "1000",
-                                    "showEasing": "swing",
-                                    "hideEasing": "linear",
-                                    "showMethod": "fadeIn",
-                                    "hideMethod": "fadeOut"
-                                }
-                                $("#nd_loichuc").val("");
-                            }
-                            else {
-                                toastr.error('Gửi lời chúc không thành công!');
-                                toastr.options = {
-                                    "closeButton": true,
-                                    "debug": true,
-                                    "newestOnTop": true,
-                                    "progressBar": true,
-                                    "positionClass": "toast-bottom-right",
-                                    "preventDuplicates": true,
-                                    "showDuration": "300",
-                                    "hideDuration": "1000",
-                                    "timeOut": "5000",
-                                    "extendedTimeOut": "1000",
-                                    "showEasing": "swing",
-                                    "hideEasing": "linear",
-                                    "showMethod": "fadeIn",
-                                    "hideMethod": "fadeOut"
-                                }
-                            }
-                        }
-                    });
-                }
-                else {
-                    toastr.warning('Chưa nhập lời chúc!');
-                    toastr.options = {
-                        "closeButton": true,
-                        "debug": true,
-                        "newestOnTop": true,
-                        "progressBar": true,
-                        "positionClass": "toast-bottom-right",
-                        "preventDuplicates": true,
-                        "showDuration": "300",
-                        "hideDuration": "1000",
-                        "timeOut": "5000",
-                        "extendedTimeOut": "1000",
-                        "showEasing": "swing",
-                        "hideEasing": "linear",
-                        "showMethod": "fadeIn",
-                        "hideMethod": "fadeOut"
-                    }
-                }
-            }
-        );
-    };
+		(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) { return; }
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/vi_VN/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
 
-    function checkLoginState() {
-        FB.getLoginStatus(function (response) {
-            console.log(response);
-            //statusChangeCallback(response);
-            GetNameFB(response.authResponse.userID);
-        });
-    }
-</script>
+		function GetNameFB(id) {
+			FB.api(
+				'/' + id,
+				'GET',
+				{ "fields": "id,name" },
+				function (response) {
+					var loichuc = $("#nd_loichuc").val();
+					var data = {
+						loichuc: loichuc,
+						id_facebook: id,
+						name_facebook: response.name
+					};
+					if (loichuc.length > 0) {
+						$.ajax({
+							type: "GET",
+							url: "/Home/NhanLoiChuc",
+							data: data,
+							contentType: "application/json; charset=utf-8",
+							dataType: "json",
+							error: function (jqXHR, textStatus, errorThrown) {
+								console.log("NOK! " + errorThrown);
+								toastr.error('Gửi lời chúc không thành công!');
+								toastr.options = {
+									"closeButton": true,
+									"debug": true,
+									"newestOnTop": true,
+									"progressBar": true,
+									"positionClass": "toast-bottom-right",
+									"preventDuplicates": true,
+									"showDuration": "300",
+									"hideDuration": "1000",
+									"timeOut": "5000",
+									"extendedTimeOut": "1000",
+									"showEasing": "swing",
+									"hideEasing": "linear",
+									"showMethod": "fadeIn",
+									"hideMethod": "fadeOut"
+								}
+							},
+							success: function (_data) {
+								if (_data.success) {
+									console.log(_data);
+									toastr.success('Gửi lời chúc thành công!');
+									toastr.options = {
+										"closeButton": true,
+										"debug": true,
+										"newestOnTop": true,
+										"progressBar": true,
+										"positionClass": "toast-bottom-right",
+										"preventDuplicates": true,
+										"showDuration": "300",
+										"hideDuration": "1000",
+										"timeOut": "5000",
+										"extendedTimeOut": "1000",
+										"showEasing": "swing",
+										"hideEasing": "linear",
+										"showMethod": "fadeIn",
+										"hideMethod": "fadeOut"
+									}
+									toastr.success('Lời chúc của bạn sẽ được duyệt trước khi hiển thị!');
+									toastr.options = {
+										"closeButton": true,
+										"debug": true,
+										"newestOnTop": true,
+										"progressBar": true,
+										"positionClass": "toast-bottom-right",
+										"preventDuplicates": true,
+										"showDuration": "300",
+										"hideDuration": "1000",
+										"timeOut": "5000",
+										"extendedTimeOut": "1000",
+										"showEasing": "swing",
+										"hideEasing": "linear",
+										"showMethod": "fadeIn",
+										"hideMethod": "fadeOut"
+									}
+									$("#nd_loichuc").val("");
+								}
+								else {
+									toastr.error('Gửi lời chúc không thành công!');
+									toastr.options = {
+										"closeButton": true,
+										"debug": true,
+										"newestOnTop": true,
+										"progressBar": true,
+										"positionClass": "toast-bottom-right",
+										"preventDuplicates": true,
+										"showDuration": "300",
+										"hideDuration": "1000",
+										"timeOut": "5000",
+										"extendedTimeOut": "1000",
+										"showEasing": "swing",
+										"hideEasing": "linear",
+										"showMethod": "fadeIn",
+										"hideMethod": "fadeOut"
+									}
+								}
+							}
+						});
+					}
+					else {
+						toastr.warning('Chưa nhập lời chúc!');
+						toastr.options = {
+							"closeButton": true,
+							"debug": true,
+							"newestOnTop": true,
+							"progressBar": true,
+							"positionClass": "toast-bottom-right",
+							"preventDuplicates": true,
+							"showDuration": "300",
+							"hideDuration": "1000",
+							"timeOut": "5000",
+							"extendedTimeOut": "1000",
+							"showEasing": "swing",
+							"hideEasing": "linear",
+							"showMethod": "fadeIn",
+							"hideMethod": "fadeOut"
+						}
+					}
+				}
+			);
+		};
 
-	</body>
+		function checkLoginState() {
+			FB.getLoginStatus(function (response) {
+				console.log(response);
+				//statusChangeCallback(response);
+				GetNameFB(response.authResponse.userID);
+			});
+		}
+	</script>
+
+</body>
+
 </html>
-
